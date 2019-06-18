@@ -1,28 +1,41 @@
-body {
-    background-image: C:\Users\Systallium\Documents\GitHub\Basic-Portfolio\assets\images\darkness.png ;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-
-}
 header {
+    display: inline;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-right: 1.5em;
     float: right;
     
-    
+}
+body {
+    line-height:  20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: auto;
+    float: left;
+    margin: 20px;
+    background-image: url(images/darkness.png)
 
+}
+img {
+    float: left;
+    margin: 20px;
 }
 
 h1 { 
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: fit-content;
     color: white;
     border-style: solid;
     background: #4aaaa5;
-    width: -webkit-max-content;
+    position: left;
 }
 h2 {
     color: #4aaaa5;
+    float: left;
 }
 
-.container {
-    width: 1024px;
-    margin: 0 auto;
+p {
+    color: gray;
+    float: left;
+    over
 }

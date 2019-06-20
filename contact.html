@@ -4,10 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets\reset.css">
+    <link rel="stylesheet" type="text/css" href="assets\style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    
+    <header id="head">
+    <div class="basket">
+        <a href="index.html" id="name" Joshua E Mannhalt></a>
+        <nav></nav>
+            <a href="index.html" target="_blank">About |</a>
+            <a href="portfolio.html" target="_blank">Portfolio |</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+    </div>
+    </header>
+    <div id="main-basket" class="basket">
+    <section class="main-bio">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="Name">Name</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="John Wick"
+                    required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email"
+                    placeholder="example@gmail.com"
+                    required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
+        </form>
+
+    <section class="sidebar">
+        <div id="Media">
+            <h2>Social Media</h2>
+
+            <img src="assets/images/gihub.png" class="social" alt="Github">
+            <img src="assets/images/link.png" class="social" alt="Linkedin">
+        </div>
+    </section>
+    </div>
+    <footer>
+        <div class="basket"> 
+            &copy; Copyright 2019 Joshua E Mannhalt
+        </div>
+    </footer>
 </body>
 </html>

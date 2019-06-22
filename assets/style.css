@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
-header,
-h1 {
-    padding: top 20px;
-    padding: bottom 20px;
-    color: gray;
-
-}
-
 body {
     font-size: 18px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -82,11 +74,12 @@ nav {
 }
 
 nav a {
-    color: #999999;
+    color: #8a1111;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
-    border-left: 1px solid #efefef;
+    border-left: 1px solid #ac5e5e7a;
+    padding-left: 15px; 
     line-height: 18px;
 }
 
@@ -101,26 +94,27 @@ nav a:first-child {
 
 .main-section   {
     padding: 30px;
-    margin: 0 0 40px 0;
+    margin: 0 40px 0 40px;
     width: 100%;
     max-width: 650px;
     float: left;
     margin-right: 25px;
+    border: 1px solid green;
 }
 
 .auth-image {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-top: 10px;
     float: left;
     margin-right: 25px;
 }
 
 .sidebar {
-    background: #ffffff;
+    background: #445a7a;
     padding: 30px;
     width: 100%;
-    max-width: 270px;
+    max-width: 200px;
     float: right;
     border: 1px solid #dddddd;
     margin-bottom: 20px;
@@ -158,14 +152,14 @@ footer {
 /* Portfolio page */
 
 .work {
-    width: 274px;
+    width: 300px;
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 0 25px;
+    margin: 20px 40px 25px;
 }
 
-.work:nth-child(even) {
+.work:nth-child::selection (.work 2, 4) {
     margin-right: 40px;
 }
 
@@ -185,8 +179,8 @@ footer {
     padding: 15px;
     width: 100%;
     line-height: 30px;
-    font-weight: 300;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 /* contact */

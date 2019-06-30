@@ -96,7 +96,7 @@ nav a:first-child {
     padding: 30px;
     margin: 0 40px 0 40px;
     width: 100%;
-    max-width: 650px;
+    max-width: 960px;
     float: left;
     margin-right: 25px;
     border: 1px solid green;
@@ -159,12 +159,12 @@ footer {
     margin: 20px 40px 25px;
 }
 
-.work:nth-child::selection (.work 2, 4) {
+.work:nth-child::selection(2) {
     margin-right: 40px;
 }
 
 .work img {
-    width: 100%;
+    width: 10%;
     border: 0 none;
     opacity: .8;
 }
